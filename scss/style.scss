@@ -7,13 +7,29 @@ header {
     @include grid-column($columns:12);
   }
   nav {
-    span{}
+    @include grid-row;
+    padding: 0em 0em 1em 0em;
+    span{
+        a{}
+    }
   }
 }
 main {
   @include grid-row;
   article {
     @include grid-column(8);
+    h2{padding:0 0 1em 0;}
+    h3{}
+    #Summary{
+      @include grid-column(4);
+        ;
+    }
+    #Technologies{
+      @include grid-column(4);
+    }
+    #Experience{
+      @include grid-column(12);
+    }
     p{}
   }
   aside {
@@ -21,4 +37,7 @@ main {
     h2{}
   }
 
+}
+footer {
+  h4{@include horizontal-center;}
 }
