@@ -1,6 +1,7 @@
 @import "settings";
 @import "../node_modules/foundation-sites/scss/foundation";
 
+
 header {
   @include grid-row;
   .logo {
@@ -19,7 +20,6 @@ main {
   article {
     @include grid-column(8);
     h2{padding:0 0 1em 0;}
-    h3{}
     #Summary{
       @include grid-column(4);
         ;

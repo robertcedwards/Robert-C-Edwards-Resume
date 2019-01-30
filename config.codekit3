@@ -16,6 +16,13 @@
 		"oAP": "/.gitattributes",
 		"oF": 0
 		},
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
 	"/css/app.css": {
 		"aP": 1,
 		"bl": 0,
