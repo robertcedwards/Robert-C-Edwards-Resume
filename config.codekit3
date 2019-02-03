@@ -43,6 +43,28 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/images/github.png": {
+		"ft": 32768,
+		"iS": 181488,
+		"oA": 0,
+		"oAP": "/images/github.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/medium.png": {
+		"ft": 32768,
+		"iS": 121873,
+		"oA": 0,
+		"oAP": "/images/medium.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
