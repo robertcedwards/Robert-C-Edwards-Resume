@@ -41,6 +41,27 @@ header {
       order: 1; }
     header nav::after {
       clear: both; }
+    header nav span {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 0 1rem 0;
+      padding: 0.85em 1em;
+      border: 1px solid transparent;
+      border-radius: 0;
+      transition: background-color 0.25s ease-out, color 0.25s ease-out;
+      font-family: inherit;
+      font-size: 0.9rem;
+      -webkit-appearance: none;
+      line-height: 1;
+      text-align: center;
+      cursor: pointer;
+      background-color: white;
+      color: hollow; }
+      [data-whatinput='mouse'] header nav span {
+        outline: 0; }
+      header nav span:hover, header nav span:focus {
+        background-color: light-grey;
+        color: hollow; }
 
 main {
   max-width: 75rem;
@@ -111,6 +132,53 @@ main {
         clear: none; }
       main article #Experience:last-child:not(:first-child) {
         float: right; }
+    main article section {
+      width: 50%;
+      float: left;
+      padding-right: 0.625rem;
+      padding-left: 0.625rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      margin-bottom: 1rem;
+      border: 1px solid #e6e6e6;
+      border-radius: 0;
+      background: whitesmoke;
+      box-shadow: none;
+      overflow: hidden;
+      color: #0a0a0a; }
+      @media print, screen and (min-width: 40em) {
+        main article section {
+          padding-right: 0.9375rem;
+          padding-left: 0.9375rem; } }
+      main article section, main article section:last-child:not(:first-child) {
+        float: left;
+        clear: none; }
+      main article section:last-child:not(:first-child) {
+        float: right; }
+      main article section > :last-child {
+        margin-bottom: 0; }
+      main article section ul li {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 0 1rem 0;
+        padding: 0.85em 1em;
+        border: 1px solid transparent;
+        border-radius: 0;
+        transition: background-color 0.25s ease-out, color 0.25s ease-out;
+        font-family: inherit;
+        font-size: 0.9rem;
+        -webkit-appearance: none;
+        line-height: 1;
+        text-align: center;
+        cursor: pointer;
+        background-color: white;
+        color: hollow; }
+        [data-whatinput='mouse'] main article section ul li {
+          outline: 0; }
+        main article section ul li:hover, main article section ul li:focus {
+          background-color: light-grey;
+          color: hollow; }
   main aside {
     width: 33.3333333333%;
     float: left;

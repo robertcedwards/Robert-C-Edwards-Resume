@@ -5,12 +5,13 @@
 header {
   @include grid-row;
   .logo {
-    @include grid-column($columns:12);
+    @include grid-column(12);
   }
   nav {
     @include grid-row;
     padding: 0em 0em 1em 0em;
     span{
+      @include button(false,white,light-grey,hollow);
         a{}
     }
   }
@@ -29,6 +30,19 @@ main {
     }
     #Experience{
       @include grid-column(12);
+    }
+    section{
+      @include grid-column(6);
+      @include card-container;
+      h3{
+      }
+      img{
+      }
+      ul{
+        li{
+          @include button(false,white,light-grey,hollow);
+        }
+      }
     }
     p{}
   }
