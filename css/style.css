@@ -75,7 +75,7 @@ main {
   main::after {
     clear: both; }
   main article {
-    width: 66.6666666667%;
+    width: 83.3333333333%;
     float: left;
     padding-right: 0.625rem;
     padding-left: 0.625rem; }
@@ -89,9 +89,21 @@ main {
     main article:last-child:not(:first-child) {
       float: right; }
     main article h2 {
-      padding: 0 0 1em 0; }
-    main article #Summary {
       width: 33.3333333333%;
+      float: left;
+      padding-right: 0.625rem;
+      padding-left: 0.625rem; }
+      @media print, screen and (min-width: 40em) {
+        main article h2 {
+          padding-right: 0.9375rem;
+          padding-left: 0.9375rem; } }
+      main article h2, main article h2:last-child:not(:first-child) {
+        float: left;
+        clear: none; }
+      main article h2:last-child:not(:first-child) {
+        float: right; }
+    main article #Summary {
+      width: 66.6666666667%;
       float: left;
       padding-right: 0.625rem;
       padding-left: 0.625rem; }
@@ -105,7 +117,7 @@ main {
       main article #Summary:last-child:not(:first-child) {
         float: right; }
     main article #Technologies {
-      width: 33.3333333333%;
+      width: 66.6666666667%;
       float: left;
       padding-right: 0.625rem;
       padding-left: 0.625rem; }
